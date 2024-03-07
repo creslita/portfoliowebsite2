@@ -218,19 +218,25 @@ section .title::after {
   display: flex;
   min-height: 500px;
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
-  color: #ffffff;
-  text-shadow: #000;
+  color: #f9f9f9;
+  text-shadow: #000000;
   font-family: "Ubuntu", sans-serif;
 }
+
 
 .home-content {
   opacity: 1;
 }
 
+
 .home .max-width {
   width: 100%;
   display: flex;
+  background-color: rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(9px);
+
 }
 
 .home .max-width .row {
