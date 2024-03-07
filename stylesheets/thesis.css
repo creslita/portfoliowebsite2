@@ -42,7 +42,7 @@ html {
   
 ::-webkit-scrollbar-thumb {
     border-radius: 12px;
-    background: linear-gradient(135deg, #f57308, #fff, rgb(11, 242, 7));
+    background: linear-gradient(135deg, #f508a6, #fff, rgb(31, 7, 242));
 }
   
 ::-webkit-scrollbar-thumb:hover {
