@@ -828,7 +828,7 @@ object-fit: cover;
   display: grid;
   place-content: center;
   min-height: 100vh;
-  background: #000;
+  background: #111;
 }
 .artwork-projects {
   position: relative;
