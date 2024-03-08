@@ -625,7 +625,7 @@ li.s2:before {
   display: grid;
   place-content: center;
   min-height: 100vh;
-  background: #000;
+  background: #111;
 }
 
 .architecture-projects {
@@ -726,7 +726,7 @@ object-fit: cover;
   display: grid;
   place-content: center;
   min-height: 100vh;
-  background: #000;
+  background: #111;
 }
 
 
