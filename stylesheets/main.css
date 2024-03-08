@@ -430,6 +430,14 @@ section .title::after {
   grid-auto-flow: dense;
   padding: 10px;
   position: relative;
+  border-width: 2px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to top, 
+      #111, 
+      rgba(255, 255, 255, 0)
+    ) 1 50%;
 }
 
 .skills .skills-content .column-right, .skills .skills-content .column-left {
