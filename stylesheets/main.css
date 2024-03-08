@@ -512,6 +512,23 @@ li.s:before {
 }
 
 
+@media only screen and (max-width: 768px) {
+  .skills .skills-content {
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+
+  ul.skillList {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  li.s,
+  li.sright {
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+}
+
+
 .skills2 {
   background-color: #111;
   color: white;
@@ -576,7 +593,21 @@ li.s2:before {
   position: relative;
 }
 
- 
+@media only screen and (max-width: 850px) {
+  .skills2 .column {
+    margin-bottom: 10px; /* Adjust margin between columns for smaller screens */
+  }
+
+  ul.skillList2 {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  li.s2,
+  li.s3 {
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+}
 
 
 
