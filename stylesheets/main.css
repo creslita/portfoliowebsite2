@@ -515,6 +515,7 @@ li.s:before {
 @media only screen and (max-width: 768px) {
   .skills .skills-content {
     padding: 5px; /* Adjust padding for smaller screens */
+    display: none;
   }
 
   ul.skillList {
@@ -594,8 +595,30 @@ li.s2:before {
 }
 
 @media only screen and (max-width: 850px) {
+
   .skills2 .column {
-    margin-bottom: 10px; /* Adjust margin between columns for smaller screens */
+    flex: 100%; /* Make each column span the full width */
+    border-left: none; /* Remove left border from all columns */
+    padding-left: 30px; /* Adjust padding */
+    margin-bottom: 40px; /* Adjust margin between columns for smaller screens */
+  }
+
+  .skills2 .column:nth-child(1),
+  .skills2 .column:nth-child(2),
+  .skills2 .column:nth-child(3) {
+    flex: 50%; /* Make the first two columns span two grid columns and the third column span one grid column */
+  }
+
+  .skills2 .column:nth-child(4) {
+    display: none; /* Hide the fourth column */
+  }
+
+  
+  .skills2 .column .text,
+  .skills2 .column .text9 {
+
+    padding-left: 0; /* Remove padding-left */
+    font-size: 16px; /* Reduce font size */
   }
 
   ul.skillList2 {
@@ -606,6 +629,8 @@ li.s2:before {
   li.s2,
   li.s3 {
     padding: 5px; /* Adjust padding for smaller screens */
+    text-align: center; /* Align text to the center */
+    font-size: 14px; /* Reduce font size */
   }
 }
 
@@ -635,6 +660,23 @@ li.s2:before {
   color: #ffffff;
   background: none;
   animation: pulsate 1s ease-in-out;
+}
+
+@media only screen and (max-width: 850px) {
+  .skills3 .cv-info {
+    display: block; /* Display the text block */
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px; /* Add margin below the text */
+  }
+}
+
+@media only screen and (min-width: 851px) {
+  .skills3 .cv-info {
+    display: none; /* Hide the text block on larger screens */
+  }
 }
 
 /*  Projects  */
